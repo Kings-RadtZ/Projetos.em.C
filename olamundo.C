@@ -1,46 +1,46 @@
 
 #include <stdio.h>
-// Declaração das variáveis 
-int main (){
-char estado [20]
-char codigo carta [4]
-char nome cidade [20]
-int populacao;
-float area km;
-float pib;
-int pontos turistico;
 
-// Leitura dos valores
-printf("digite o código da carta:");
-scanf("%s", estado);
-printf("digite o código da carta:");
-scanf("%s", codigo carta);
-printf("digite o nome da cidade:");
-scanf("%s", nome cidade);
-printf("digite a população:");
-scanf("%d", &populacao );
-printf("digite a area em km:");
-scanf("%d", &area km);
-printf("digite o pib: R$");
-scanf("%f", &pib);
-printf("digite o número de pontos turísticos:");
-scanf("%d", &pontos turistico);
+int main() {
+    // Declaração das variáveis
+    char estado[20];
+    char codigo_carta[4];
+    char nome_cidade[20];
+    int populacao;
+    float area_km;
+    float pib;
+    int pontos_turisticos;
 
-// Exibiçãoes dos valores 
+    // Leitura dos valores
+    printf("Digite o estado: ");
+    scanf("%s", estado);
+    printf("Digite o código da carta: ");
+    scanf("%s", codigo_carta);
+    printf("Digite o nome da cidade: ");
+    scanf("%s", nome_cidade);
+    printf("Digite a população: ");
+    scanf("%d", &populacao);
+    printf("Digite a área em km²: ");
+    scanf("%f", &area_km);
+    printf("Digite o PIB: R$ ");
+    scanf("%f", &pib);
+    printf("Digite o número de pontos turísticos: ");
+    scanf("%d", &pontos_turisticos);
 
-printf("\nEstado: %s\n", estado);
-printf("codigo da carta: %s\n", codigo carta);
-printf("nome da cidade: %s\n", nome cidade);
-printf("populacao: %d\n", populacao);
-printf("area em km: %.2f\n", area km);
-printf("pib: R$ %.2f\n", pib);
-printf("ponto turisticos: %d\n", pontos turisticos);
+    // Exibição dos valores
+    printf("\nEstado: %s\n", estado);
+    printf("Código da carta: %s\n", codigo_carta);
+    printf("Nome da cidade: %s\n", nome_cidade);
+    printf("População: %d\n", populacao);
+    printf("Área em km²: %.2f\n", area_km);
+    printf("PIB: R$ %.2f\n", pib);
+    printf("Pontos turísticos: %d\n", pontos_turisticos);
 
-return 0;
-
-
-
+    return 0;
 }
+
+
+
 
 
 
